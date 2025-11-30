@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Page Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #2b1d1a;
+            color: #e2e8f0;
+        }
+
+        header {
+            background: #313946;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            margin-left: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+
+        }
+
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+            font-size: 30px;
+            border-left: 5px solid #38bdf8;
+            padding-left: 10px;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            margin: 10px 0 5px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .project-box {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        footer {
+            background: #1e293b;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PRIBADONG LUGAR</h1>
+    <nav>
+        <a href="#team">Team</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome sa masiit na lugar</h2>
+    <p>Tanan Kami Akig sa mga AGI.</p>
+</section>
+
+<section class="section" id="team">
+    <h2>Meet the Group</h2>
+    <div class="team-grid">
+        
+        <div class="card">
+            <img src="fet.jpg" />
+            <p>Leader • JUAN </p>
+        </div>
+
+        <div class="card">
+            <img src="law.jpg" >
+            <p>EDITOR  • PAGWA BULI</p>
+        </div>
+
+        <div class="card">
+            <img src="nong.jpg" />
+            <p>MANONG • KA-LAM</p>
+        </div>
+
+        <div class="card">
+            <img src="pp.jpg" >
+            <p>DEVIL • DEMON</p>
+        </div>
+
+         <div class='card'>
+            <img src="za.jpg"/>
+            <p>GUITARISTA • OPEN CHESS  </p>
+        </div>
+
+        <div class="card">
+        <img src="pil.jpg"/>
+        <p>MABUOT • PHIL</p>
+       </div>
+     </div>
+</section>
+
+<section class="section" id="projects">
+<h2>WALA LANG</h2>
+<div class="projects">
+<div class="project-box">
+ <div class="projects">
+        <div class="project-box">
+            <h3>TALAMNAN</h3>
+            <p>
+                TAP THIS  
+                <a href="https://drive.google.com/file/d/1_p442wu2v9CrKaIKCtANYDDSDgZPzOyn/view?usp=drive_link" 
+                   class="btn" target="_blank">
+                    SECRET SAUCE
+                </a>
+            </p>
+        </div>
+    </div>
+<style>
+.media-wrap {
+  display: flex;
+  justify-content: center; /* centers the video */
+}
+</style>
+
+</div>
+</div>
+</section>
+
+<section class="section" id="about">
+    <h2>About the Group</h2>
+    <p>
+        WAY KA SA AMON MAY MAKUHA NA MA-AYU
+    </p>
+</section>
+
+<footer>
+    © 2025 Group Page • All Rights Reserved
+</footer>
+
+</body>
+</html>
